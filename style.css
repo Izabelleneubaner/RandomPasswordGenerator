@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&family=Karla:wght@800&display=swap");
+
+@media screen and (min-width: 600px) {
+  .passwords input {
+    width: 33%;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #1f2937;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+h1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 800;
+  color: #fff;
+}
+
+h1 .h1-red-color {
+  color: #e11d48;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  color: #d5d4d8;
+  padding-top: 3%;
+  padding-bottom: 6%;
+}
+
+.div-button {
+  display: flex;
+  width: 52%;
+  height: 30px;
+  background-color: #be123c;
+  border-radius: 6px;
+}
+
+.div-button img {
+  width: 8%;
+  object-fit: contain;
+  padding-left: 7%;
+}
+
+#button-el {
+  border: none;
+  background-color: #be123c;
+  font-family: "Inter";
+  color: #fff;
+  padding-left: 3%;
+}
+
+.line {
+  border: 1px solid #2f3e53;
+  margin: 35px 0;
+  width: 55%;
+}
+
+.passwords {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  column-gap: 10px;
+  row-gap: 20px;
+  justify-content: center;
+}
+
+.passwords input {
+  height: 30px;
+  border-radius: 3px;
+  border: none;
+  background-color: #2f3e53;
+  color: #f43f5e;
+  text-align: center;
+}
+
+.passwords input:focus {
+  outline: none;
+}
